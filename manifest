@@ -1,0 +1,13 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+name: CompressionModule
+moduleid: net.robertcarlsen.Compression
+version: 0.1
+description: Compression interface for zlib
+author: Robert Carlsen
+license: GPLv3
+copyright: Copyright (c) 2010 by Robert Carlsen
+platform: iphone
+minsdk: 1.3.2
