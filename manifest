@@ -2,8 +2,8 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-name: CompressionModule
-moduleid: net.robertcarlsen.Compression
+name: net.robertcarlsen.compression
+moduleid: net.robertcarlsen.compression
 version: 0.1
 description: Compression interface for zlib
 author: Robert Carlsen
