@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2464C5B51216FA9500DF9F16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2464C5B41216FA9500DF9F16 /* Foundation.framework */; };
-		2464C5B81216FC6B00DF9F16 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2464C5B71216FC6B00DF9F16 /* libz.1.2.3.dylib */; };
 		2464C5C71216FCD500DF9F16 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2464C5BC1216FCD500DF9F16 /* crypt.h */; };
 		2464C5C81216FCD500DF9F16 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 2464C5BD1216FCD500DF9F16 /* ioapi.c */; };
 		2464C5C91216FCD500DF9F16 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2464C5BE1216FCD500DF9F16 /* ioapi.h */; };
@@ -20,14 +18,14 @@
 		2464C5CF1216FCD500DF9F16 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 2464C5C41216FCD500DF9F16 /* zip.h */; };
 		2464C5D01216FCD500DF9F16 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 2464C5C51216FCD500DF9F16 /* ZipArchive.h */; };
 		2464C5D11216FCD500DF9F16 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2464C5C61216FCD500DF9F16 /* ZipArchive.mm */; };
+		248FC1051391C64300AFBD06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248FC1041391C64300AFBD06 /* Foundation.framework */; };
 		24DD6CF91134B3F500162E58 /* CompressionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* CompressionModule.h */; };
 		24DD6CFA1134B3F500162E58 /* CompressionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* CompressionModule.m */; };
+		24F945F5160F7D380058D36C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F945F4160F7D380058D36C /* libz.dylib */; };
 		AA747D9F0F9514B9006C5449 /* Compression_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Compression_Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2464C5B41216FA9500DF9F16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2464C5B71216FC6B00DF9F16 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/lib/libz.1.2.3.dylib; sourceTree = "<absolute>"; };
 		2464C5BC1216FCD500DF9F16 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
 		2464C5BD1216FCD500DF9F16 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
 		2464C5BE1216FCD500DF9F16 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
@@ -39,9 +37,11 @@
 		2464C5C41216FCD500DF9F16 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		2464C5C51216FCD500DF9F16 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		2464C5C61216FCD500DF9F16 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		248FC1041391C64300AFBD06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24DD6CF71134B3F500162E58 /* CompressionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompressionModule.h; path = Classes/CompressionModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* CompressionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompressionModule.m; path = Classes/CompressionModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24F945F4160F7D380058D36C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		AA747D9E0F9514B9006C5449 /* Compression_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compression_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		D2AAC07E0554694100DB518D /* libCompression.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCompression.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2464C5B51216FA9500DF9F16 /* Foundation.framework in Frameworks */,
-				2464C5B81216FC6B00DF9F16 /* libz.1.2.3.dylib in Frameworks */,
+				24F945F5160F7D380058D36C /* libz.dylib in Frameworks */,
+				248FC1051391C64300AFBD06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +82,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2464C5B71216FC6B00DF9F16 /* libz.1.2.3.dylib */,
-				2464C5B41216FA9500DF9F16 /* Foundation.framework */,
+				24F945F4160F7D380058D36C /* libz.dylib */,
+				248FC1041391C64300AFBD06 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -268,10 +268,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
-				TITANIUM_SDK_VERSION = 1.4.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -283,10 +283,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
-				TITANIUM_SDK_VERSION = 1.4.0;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
